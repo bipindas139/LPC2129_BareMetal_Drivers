@@ -1,3 +1,5 @@
+#ifndef UART0_H
+#define UART0_H
 
 // ****** UART0 ********
 
@@ -18,3 +20,5 @@ void uart0_float(float );
 void uart0_integer(s32 );
 void uart0_hex32(u32);
 void uart0_hex(u8 );
+
+#endif
